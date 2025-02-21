@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modelo 3D en AR</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 3D - KIA</title>
     <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@2.7.1/dist/model-viewer.js"></script>
-  </head>
-  <body>
-    <h1>Ver modelo en Realidad Aumentada</h1>
-    <model-viewer
-      src="https://victorcastillainfova.github.io/MODELOAR/KIA-2.glb"  <!-- Cambia el nombre y ruta según corresponda -->
-      alt="3D Model"
-      auto-rotate
-      camera-controls
-      ar
-      style="width: 100%; height: 500px;">
+</head>
+<body>
+    <h1>Visualización de modelo 3D</h1>
+    
+    <model-viewer 
+        src="KIA-2.glb"  <!-- Asegúrate de que el archivo está en la misma carpeta -->
+        alt="Modelo KIA"
+        auto-rotate
+        camera-controls
+        ar
+        style="width: 100%; height: 500px;">
     </model-viewer>
-  </body>
+
+</body>
 </html>
